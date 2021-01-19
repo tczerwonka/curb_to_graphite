@@ -117,7 +117,7 @@ for line in text.split('\n'):
         name = ''.join(('house.current.',name))
         carbondata.append("%s %s %d" % (name,value,now))
 
-        name = "garage-bj"
+        name = "garage-b"
         value = str(inner[1]["c"][4]["w"])
         name = ''.join(('house.current.',name))
         carbondata.append("%s %s %d" % (name,value,now))
